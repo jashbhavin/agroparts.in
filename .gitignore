@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+test-results/
+playwright-report/
+
+# Local original-photo safety copies; never ship these as website assets.
+reports/product-image-audit/originals/
+reports/product-image-audit/catalog/
+reports/product-image-audit/preserved-pilot/
+
+# Local-only working files (image audit is ~2GB; hosting config is for the old review host)
+reports/
+.openai/
